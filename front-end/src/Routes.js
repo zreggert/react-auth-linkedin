@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { LoginPage } from './pages/LoginPage';
-import { Signup } from './pages/Signup';
+import { SignupPage } from './pages/Signup';
 import { UserInfoPage } from './pages/UserInfoPage';
 import { PrivateRoute } from './auth/PrivateRoute';
 
@@ -15,7 +15,7 @@ export const Routes = () => {
                     <LoginPage />
                 </Route>
                 <Route path="/signup">
-                    <Signup />
+                    <SignupPage />
                 </Route>
             </Switch>
         </Router>
